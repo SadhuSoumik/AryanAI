@@ -1,0 +1,34 @@
+vocab_size: 28
+unk_id: 0
+bos_id: 1
+eos_id: 2
+pad_id: 3
+checksum: 3945134790
+<UNK>
+<BOS>
+<EOS>
+<PAD>
+model
+need
+jumps
+sample
+transformer
+training
+text
+dog
+enough
+for
+fox
+this
+tokens
+is
+to
+we
+the
+a
+more
+have
+quick
+brown
+over
+lazy

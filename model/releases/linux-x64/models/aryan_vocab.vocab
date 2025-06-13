@@ -1,0 +1,15 @@
+vocab_size: 9
+unk_id: 0
+bos_id: 1
+eos_id: 2
+pad_id: 3
+checksum: 3945134790
+<UNK>
+<BOS>
+<EOS>
+<PAD>
+test
+this
+is
+a
+sentence

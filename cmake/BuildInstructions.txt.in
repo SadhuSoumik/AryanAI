@@ -1,0 +1,47 @@
+=== C Transformer Build Instructions ===
+
+Build Type: @CMAKE_BUILD_TYPE@
+Compiler: @CMAKE_C_COMPILER_ID@ @CMAKE_C_COMPILER_VERSION@
+System: @CMAKE_SYSTEM_NAME@
+Architecture: @CMAKE_SYSTEM_PROCESSOR@
+
+=== Quick Start ===
+
+1. Create build directory:
+   mkdir build && cd build
+
+2. Configure:
+   cmake ..
+
+3. Build:
+   cmake --build . --config @CMAKE_BUILD_TYPE@
+
+4. Run:
+   ./Aaryan --help
+
+=== Platform-Specific Notes ===
+
+Windows (Visual Studio):
+- Install Visual Studio 2019 or later
+- Install vcpkg: git clone https://github.com/Microsoft/vcpkg.git
+- Install pthreads: vcpkg install pthreads:x64-windows
+- Configure: cmake .. -DCMAKE_TOOLCHAIN_FILE=path/to/vcpkg/scripts/buildsystems/vcpkg.cmake
+
+Windows (MinGW/MSYS2):
+- Install MSYS2 from https://www.msys2.org/
+- Install packages: pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-cmake mingw-w64-x86_64-pthreads-w32
+- Configure: cmake .. -G "MinGW Makefiles"
+
+macOS:
+- Install Xcode Command Line Tools: xcode-select --install
+- Install Homebrew (optional): /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+- Install OpenMP: brew install libomp
+
+Linux:
+- Install build tools: sudo apt-get install build-essential cmake
+- Standard build should work out of the box
+
+=== Optional Dependencies ===
+
+OpenMP: Enables parallel matrix operations for better performance
+BLAS: Provides optimized linear algebra routines

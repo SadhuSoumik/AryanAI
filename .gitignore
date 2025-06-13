@@ -1,0 +1,38 @@
+# Build artifacts
+build*/
+*.o
+*.obj
+*.exe
+*.out
+
+# Model files (large binary files)
+*.bin
+*.model
+*.weights
+
+# Temporary files
+temp*
+*.tmp
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/settings.json
+.idea/
+
+# Log files
+*.log
+
+# Compiled executables (keep releases but ignore root level)
+/Aaryan
+/AryanAi
+/preprocess_csv
+/c_transformer*
+
+# Build directories
+/build/
+/cmake-build-*/
+/model/builds/*
+!/model/builds/.gitkeep

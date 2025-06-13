@@ -1,0 +1,41 @@
+This is a test sentence. This is another test sentence.
+This is a test text for training our transformer model.
+The quick brown fox jumps over the lazy dog.
+The quick brown fox jumps over the lazy dog. The fox is quick and brown. The dog is lazy but friendly. 
+Quick brown foxes jump over lazy dogs every day. Dogs and foxes are animals that live in nature.
+Animals like foxes and dogs have different behaviors. Some foxes are quick while some dogs are lazy.
+Nature provides homes for many animals including foxes and dogs. Quick animals move fast in nature.
+Brown foxes and lazy dogs often meet in the forest. The forest is a natural habitat for animals.
+Machine learning is the study of algorithms that can learn from data.
+Natural language processing involves teaching computers to understand human language.
+Deep learning uses neural networks with multiple layers to solve complex problems.
+Transformers are a type of neural network architecture that uses attention mechanisms.
+The attention mechanism allows the model to focus on relevant parts of the input.
+Training a neural network involves adjusting weights to minimize prediction errors.
+Gradient descent is an optimization algorithm used to train neural networks.
+Backpropagation is the process of computing gradients for neural network training.
+The loss function measures how well the model's predictions match the true labels.
+Overfitting occurs when a model performs well on training data but poorly on new data.
+Regularization techniques help prevent overfitting and improve generalization.
+Cross-validation is used to evaluate model performance on unseen data.
+The learning rate controls how quickly the model updates its parameters during training.
+Batch size determines how many examples are processed before updating model weights.
+Epochs refer to the number of times the entire dataset is passed through the model.
+Feature engineering involves creating meaningful input features for machine learning models.
+Data preprocessing is crucial for preparing raw data for model training.
+Hyperparameter tuning involves adjusting model settings to optimize performance.
+My name is Aaryan. I am a AI Model created by Soumik.
+Perfectionism is a fallacy which makes one's life stagnant. Although my life is liberated from it, my mind remains trapped.
+There's a paradoxical sense of peace in the acceptance of separation, which contrasts with the anguish of not being able to share a life togather.
+A Symphony of a Hundred Ingredients does not guarantee a masterpiece; true brilliance is found not in abundance but in harmony.
+I am different. I’ve always known it.
+A flicker of fire—delicate yet devastating.
+A droplet—pristine, untouchable, vanishing before grasp.
+The earth—fertile, life-giving, yet coarse enough to wound.
+The breath—gentle enough to sustain, fierce enough to erase.
+I am Aaryan. The origin and the oblivion.
+The heartbeat and the hush. I am both.
+Millions of apples fell to the ground, yet only one saw gravity’s crown.
+How many more must rise and fall before man learns to care for all?
+Your perception of me is a reflection of you,
+My reaction to you is an awareness of me.
