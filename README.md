@@ -380,8 +380,8 @@ The AryanAi transformer implements a complete attention-based architecture with 
 - **Model Size**: ~32-64MB
 - **Memory Usage**: ~500MB-1GB during training
 - **Training Time**: 1-3 hours on modern CPU
-- **Capabilities**: High-quality text generation, complex pattern recognition
-- **Use Cases**: Production applications, research, complex language tasks
+- **Capabilities**: High-quality text generation, pattern recognition
+- **Use Cases**: Production applications, research, language tasks
 
 ### Parameter Impact Analysis
 
@@ -476,7 +476,7 @@ Large          | 8+        | 1-3 hours
 
 - **Coherence**: How well the model maintains topic consistency
 - **Fluency**: Natural language flow and grammar
-- **Creativity**: Ability to generate novel, interesting content
+- **Creativity**: Ability to generate short stories, interesting content
 - **Context**: Understanding and maintaining conversation context
 
 ### Optimization Recommendations
